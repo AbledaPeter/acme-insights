@@ -9,7 +9,7 @@ The goal of this drill is to see how we would work together as a team using the 
 
 ## Data
 
-Under the `data` directory, you will find a CSV file that contains orders and returns from a fictional company, [Acme Corporation](http://en.wikipedia.org/wiki/Acme_Corporation).
+Under the `data` directory, you will find a CSV file that contains orders and returns of a fictional company, [Acme Corporation](http://en.wikipedia.org/wiki/Acme_Corporation).
 
 ## Task
 
