@@ -20,9 +20,10 @@ By forking this repository, you should build a Rails application that provides s
  * How much do users order on average?
  * Does price affect return rates?
 
-We're opinionated and we also have a bunch of legacy stuff, so we'd like you to use some of the tools below, but feel free to use others.
-
 ## Tools
+
+We're opinionated and we also have a bunch of legacy stuff, so we'd like you to use some of our existing tools, but feel free to also use others:
+
 
  * [MongoDB](http://www.mongodb.org/) is a silver bullet (oh and it's also [web scale](http://www.youtube.com/watch?v=b2F-DItXtZs))
  * [Mongoid](http://mongoid.org/) is the best MongoDB ODM
