@@ -28,6 +28,7 @@ We're opinionated and we also have a bunch of legacy stuff, so we'd like you to 
  * [MongoDB](http://www.mongodb.org/) is a silver bullet (oh and it's also [web scale](http://www.youtube.com/watch?v=b2F-DItXtZs))
  * [Mongoid](http://mongoid.org/) is the best MongoDB ODM
  * [Boostrap](http://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/) make unicorns cry rainbows
+ * [Rails](http://rubyonrails.org/) is still the most productive web development framework
  * [RSpec](https://relishapp.com/rspec) comes the closest to self-documenting code
 
 ## Tips
