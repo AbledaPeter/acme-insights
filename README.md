@@ -9,7 +9,7 @@ The goal of this drill is to see how we would work together as a team using the 
 
 ## Data
 
-You should have access to the [acme-data](https://github.com/sspinc/acme-data) repository as it is configured as a submodule under the `data` directory. There, you will find CSV files that contain the products, orders and returns of the fictional company, [Acme Corporation](http://en.wikipedia.org/wiki/Acme_Corporation).
+You should have access to the [acme-data](https://github.com/sspinc/acme-data) repository as it is configured as a submodule under the `data` directory. There, you will find TSV files that contain the products, orders and returns of the fictional company, [Acme Corporation](http://en.wikipedia.org/wiki/Acme_Corporation).
 
 ## Task
 
