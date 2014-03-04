@@ -3,7 +3,7 @@ Acme Insights
 
 ## Welcome
 
-Welcome to the SSP Ruby Drill!
+Welcome to the SSP Drill!
 
 The goal of this drill is to see how we would work together as a team using the same workflow and tools that we use every day. It's OK if you don't have experience with some of the tools we use, learning is part of the game!
 
@@ -13,7 +13,7 @@ You should have access to the [acme-data](https://github.com/sspinc/acme-data) r
 
 ## Task
 
-By forking this repository, you should build a Rails application that provides some insights into the data. Here are a few examples, but we encourage you to come up with ones that you find interesting:
+By forking this repository, you should build a Rails or Node.js application that provides some insights into the data. Here are a few examples, but we encourage you to come up with ones that you find interesting:
 
  * What are the best selling brands?
  * Which department had the highest return rate?
@@ -26,10 +26,19 @@ We're opinionated and we also have a bunch of legacy stuff, so we'd like you to 
 
 
  * [MongoDB](http://www.mongodb.org/) is a silver bullet (oh and it's also [web scale](http://www.youtube.com/watch?v=b2F-DItXtZs))
- * [Mongoid](http://mongoid.org/) is the best MongoDB ODM
  * [Boostrap](http://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/) make unicorns cry rainbows
+ 
+ If you take the Ruby route
+ 
+ * [Mongoid](http://mongoid.org/) is the best MongoDB ODM for Ruby
  * [Rails](http://rubyonrails.org/) is still the most productive web development framework
- * [RSpec](https://relishapp.com/rspec) comes the closest to self-documenting code
+ * [RSpec](https://relishapp.com/rspec) comes the closest to self-documenting Ruby code
+
+If you take the Node.js route
+
+ * [Mongoose](http://mongoosejs.com/) is for Node.js what Mongoid is for Ruby
+ * [Node.js](http://nodejs.org/) is the present and future of server side JavaScript
+ * We would like to see and understand your choice of frameworks for web and testing, so please make your choices and explain them
 
 ## Tips
 
