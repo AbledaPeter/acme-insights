@@ -1,0 +1,23 @@
+{
+  "name": "coloraffect",
+  "version": "1.0.0",
+  "description": "Inquest of color's affect on return rates.",
+  "main": "AcmeSchemas.js",
+  "dependencies": {
+    "mongoose": "~3.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AbledaPeter/acme-insights.git"
+  },
+  "author": "Peter Ableda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbledaPeter/acme-insights/issues"
+  },
+  "homepage": "https://github.com/AbledaPeter/acme-insights"
+}
