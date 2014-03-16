@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
-var fs = require('fs');
 
 require('./AcmeSchemas.js')();
+var comparator = require('./Comparator.js');
 
 mongoose.connect('mongodb://localhost/acme');
 
@@ -35,15 +35,15 @@ AggregatedData
   })
   
   compareByTooSmall = function(a, b) {
-    return b.tooSmallPercent - a.tooSmallPercent;
+    return comparator.compareByAttributeDesc(a,b,'tooSmallPercent');
   }
 
   compareByTooLarge = function(a, b) {
-    return b.tooLargePercent - a.tooLargePercent;
+    return comparator.compareByAttributeDesc(a,b,'tooLargePercent');
   }
   
   compareByDontLike = function(a, b) {
-    return b.dontLikePercent - a.dontLikePercent;
+    return comparator.compareByAttributeDesc(a,b,'dontLikePercent');
   }
 
   console.log("Top 5 too_small return rates");
