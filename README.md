@@ -4,7 +4,7 @@ Acme Insights
 ## Question
 
 It's a belief that in a black or vertically striped dress you seems leaner, and a horizontally striped dress makes you look fat.  
-My question was: **Does colour affect return rates?**  
+My question was: **Does color affect return rates?**  
 Is it possible that the dress fits perfectly, but the colour or the texture of a dress makes the customers return the dress with the too large or too small reason?
 
 ## Solution
@@ -30,7 +30,7 @@ After the filter the program collect the top 5 too small/too large/dont like ret
 
 ## Result
 
-Top 5 too_small return rates
+#### Top 5 too_small return rates
 
 Color   |Too Small Percent |Too Large Percent |Don't Like Percent
 ---|---|---|---
@@ -41,7 +41,7 @@ Raw     |13.16%  |2.61%   |2.87%
 Cappuccino      |13.03%  |1.26%   |2.94%
 Leopard Pony    |12.62%  |4.40%   |1.56%
 
-Top 5 too_large return rates
+#### Top 5 too_large return rates
 
 Color   |Too Small Percent |Too Large Percent |Don't Like Percent
 ---|---|---|---
@@ -52,7 +52,7 @@ Galaxy  |0.93%   |10.28%  |1.87%
 Red/Brown       |3.41%   |10.23%  |3.98%
 Multi Blue      |1.87%   |9.35%   |0.00%
 
-Top 5 dont_like return rates
+#### Top 5 dont_like return rates
 
 Color   |Too Small Percent |Too Large Percent |Don't Like Percent
 ---|---|---|---
@@ -63,4 +63,4 @@ Dew     |2.61%   |0.87%   |10.43%
 Horizon |4.24%   |8.47%   |9.32%
 Smoky   |0.34%   |2.07%   |8.97%
 
-If i sell a bleach dress, it has 17% of chance of the return with the too small reason, and only 2,6% of return with the too large reason. 
+An observation: If i sell a bleach dress, it has 17% of chance of the return with the too small reason, and only 2,6% of return with the too large reason. 
