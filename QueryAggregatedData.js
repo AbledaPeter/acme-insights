@@ -48,22 +48,21 @@ AggregatedData
 
   console.log("Top 5 too_small return rates");
   result.sort(compareByTooSmall);
-  
- console.log("Color\tTooSmallPercent\tTooLargePercent\tDontLikePercent");
+  console.log("Color\tTooSmallPercent\tTooLargePercent\tDontLikePercent");
   for (var i=0; i<=5; i++) {
     console.log(result[i].color + '\t' + (result[i].tooSmallPercent*100).toFixed(2) + '%' + '\t' + (result[i].tooLargePercent*100).toFixed(2) + '%' + '\t' + (result[i].dontLikePercent*100).toFixed(2) + '%');
   }
   
   console.log("\nTop 5 too_large return rates");
   result.sort(compareByTooLarge);
-
+  console.log("Color\tTooSmallPercent\tTooLargePercent\tDontLikePercent");
   for (var i=0; i<=5; i++) {
     console.log(result[i].color + '\t' + (result[i].tooSmallPercent*100).toFixed(2) + '%' + '\t' + (result[i].tooLargePercent*100).toFixed(2) + '%' + '\t' + (result[i].dontLikePercent*100).toFixed(2) + '%');
   }
 
   console.log("\nTop 5 dont_like return rates");
   result.sort(compareByDontLike);
-
+  console.log("Color\tTooSmallPercent\tTooLargePercent\tDontLikePercent");
   for (var i=0; i<=5; i++) {
     console.log(result[i].color + '\t' + (result[i].tooSmallPercent*100).toFixed(2) + '%' + '\t' + (result[i].tooLargePercent*100).toFixed(2) + '%' + '\t' + (result[i].dontLikePercent*100).toFixed(2) + '%');
   }
