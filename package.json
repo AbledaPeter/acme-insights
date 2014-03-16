@@ -2,7 +2,6 @@
   "name": "coloraffect",
   "version": "1.0.0",
   "description": "Inquest of color's affect on return rates.",
-  "main": "AcmeSchemas.js",
   "dependencies": {
     "mongoose": "~3.8.8"
   },
