@@ -46,11 +46,11 @@ module.exports = function(){
   mongoose.model('AggregatedData', new mongoose.Schema({ 
     _id : String,
     value : {
-      products : Number,
+      products : [String],
       too_small : Number,
-          too_large : Number,
-          dont_like : Number,
-          order : Number
+      too_large : Number,
+      dont_like : Number,
+      order : Number
     }
   }), 'aggregatedData');
 }
